@@ -14,7 +14,6 @@
         android:textColor="@color/warm_gold"
         android:gravity="center"
         android:layout_marginBottom="30dp"
-        android:fontFamily="@font/my_font"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,7 +21,6 @@
         android:text="@string/start_time"
         android:textColor="@color/warm_white"
         android:textSize="16sp"
-        android:fontFamily="@font/my_font"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,7 +56,6 @@
         android:textColor="@color/warm_white"
         android:textSize="16sp"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/my_font"/>
 
     <NumberPicker
         android:id="@+id/interval_picker"
@@ -72,7 +69,6 @@
         android:textColor="@color/warm_white"
         android:textSize="16sp"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/my_font"/>
 
     <EditText
         android:id="@+id/path_edit"
@@ -83,7 +79,6 @@
         android:textColor="#FFFFFF"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
-        android:fontFamily="@font/my_font"/>
 
     <Button
         android:id="@+id/save_btn"
@@ -93,6 +88,5 @@
         android:text="@string/save"
         android:textColor="#FFFFFF"
         android:background="@drawable/button_rounded"
-        android:fontFamily="@font/my_font"/>
 
 </LinearLayout>
