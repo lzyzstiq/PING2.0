@@ -4,6 +4,5 @@
         <item name="colorPrimaryDark">@color/night_blue</item>
         <item name="colorAccent">@color/warm_gold</item>
         <item name="android:windowBackground">@drawable/background</item>
-        <item name="android:fontFamily">@font/my_font</item>
     </style>
 </resources>
