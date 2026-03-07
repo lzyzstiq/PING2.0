@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/starry_night_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textColor="@color/warm_gold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#33000000">
+
+        <TextView
+            android:id="@+id/current_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="💤 子瑜，该睡了。"
+            android:textSize="18sp"
+            android:textColor="@color/warm_white"
+            android:lineSpacingExtra="5dp"
+            android:fontFamily="sans-serif-light"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/start_service"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="启动守护"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_rounded"
+            android:layout_marginEnd="10dp"/>
+
+        <Switch
+            android:id="@+id/night_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深夜模式"
+            android:textColor="@color/warm_gold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dream_label"
+        android:textSize="20sp"
+        android:textColor="@color/warm_gold"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/dream_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/dream_hint"
+        android:textColorHint="#88FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/record_dream"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/record_button"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_rounded_small"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_dreams"
+        android:textSize="16sp"
+        android:textColor="#88E6B800"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dream_history"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/external_quote_hint"
+        android:textSize="12sp"
+        android:textColor="#66FFFFFF"
+        android:gravity="center"/>
+
+</LinearLayout>
