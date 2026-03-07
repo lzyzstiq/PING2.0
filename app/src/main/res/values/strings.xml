@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">PING2.0 平平</string>
-    <string name="dream_label">🌙 记录梦境</string>
-    <string name="dream_hint">刚才梦到什么了？</string>
-    <string name="record_button">✨ 告诉平平</string>
-    <string name="recent_dreams">最近做的梦</string>
-    <string name="external_quote_hint">将 语料库.txt 放在手机根目录即可自定义语录</string>
-</resources>
