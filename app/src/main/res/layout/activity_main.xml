@@ -19,7 +19,6 @@
             android:textSize="28sp"
             android:textColor="@color/warm_gold"
             android:gravity="center"
-            android:fontFamily="@font/my_font"/>
 
         <ImageButton
             android:id="@+id/settings_btn"
@@ -48,7 +47,6 @@
             android:textSize="18sp"
             android:textColor="@color/warm_white"
             android:lineSpacingExtra="5dp"
-            android:fontFamily="@font/my_font"/>
     </androidx.cardview.widget.CardView>
 
     <Button
@@ -60,6 +58,5 @@
         android:textColor="#FFFFFF"
         android:background="@drawable/button_rounded"
         android:textSize="18sp"
-        android:fontFamily="@font/my_font"/>
 
 </LinearLayout>
